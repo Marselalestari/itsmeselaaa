@@ -3,4 +3,25 @@
 
 int main(vold)
 {
-int 
+int start,end,years=0;
+//TODO:prompt end size
+do
+}
+while(start<9);
+do
+{
+printf("Ending Population Size (>%d): ",start);
+scanf("%d",&end);
+}
+while (end < start);
+//TODO:calculate of years until reach threshold
+while(start<end)
+{
+ start = start +/3-start/4;
+years++;
+}
+ //TODO:print of years
+printf("Years:%d\n",years);
+return 0;
+}
+
